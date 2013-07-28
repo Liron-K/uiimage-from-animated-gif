@@ -440,8 +440,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				DSTROOT = /tmp/uiimage_from_animated_gif_lib.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "uiimage-from-animated-gif-lib/uiimage-from-animated-gif-lib-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -457,8 +456,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				DSTROOT = /tmp/uiimage_from_animated_gif_lib.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "uiimage-from-animated-gif-lib/uiimage-from-animated-gif-lib-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -477,10 +475,10 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "uiimage-from-animated-gif-lib/uiimage-from-animated-gif-lib-Prefix.pch";
 				INFOPLIST_FILE = "uiimage-from-animated-gif-libTests/uiimage-from-animated-gif-libTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -497,9 +495,9 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "uiimage-from-animated-gif-lib/uiimage-from-animated-gif-lib-Prefix.pch";
 				INFOPLIST_FILE = "uiimage-from-animated-gif-libTests/uiimage-from-animated-gif-libTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
